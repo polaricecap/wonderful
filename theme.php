@@ -34,9 +34,9 @@ global $Wcms;
 		<?= $Wcms->block('subside') ?>
 
 		<?= $Wcms->footer() ?>
-
+<!--
 		<script src="<?= $Wcms->asset('assets/js/jquery.min.js') ?>"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="text/javascript"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="text/javascript"></script>-->
 		<?= $Wcms->js() ?>
 	</body>
 </html>
